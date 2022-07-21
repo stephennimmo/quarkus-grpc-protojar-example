@@ -41,6 +41,10 @@
             <artifactId>quarkus-arc</artifactId>
         </dependency>
         <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-resteasy-reactive</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.stephennimmo.demo</groupId>
             <artifactId>quarkus-grpc-protojar</artifactId>
             <version>0.0.1-SNAPSHOT</version>
