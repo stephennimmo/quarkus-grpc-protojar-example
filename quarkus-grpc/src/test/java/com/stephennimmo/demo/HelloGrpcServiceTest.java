@@ -4,6 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.time.Duration;
 
+import com.stephennimmo.demo.hello.HelloGrpc;
+import com.stephennimmo.demo.hello.HelloReply;
+import com.stephennimmo.demo.hello.HelloRequest;
 import io.quarkus.grpc.GrpcClient;
 import io.quarkus.test.junit.QuarkusTest;
 

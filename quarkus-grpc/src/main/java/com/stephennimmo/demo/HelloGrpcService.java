@@ -1,5 +1,8 @@
 package com.stephennimmo.demo;
 
+import com.stephennimmo.demo.hello.HelloGrpc;
+import com.stephennimmo.demo.hello.HelloReply;
+import com.stephennimmo.demo.hello.HelloRequest;
 import io.quarkus.grpc.GrpcService;
 
 import io.smallrye.mutiny.Uni;

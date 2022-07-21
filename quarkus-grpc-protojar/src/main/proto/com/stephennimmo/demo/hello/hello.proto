@@ -1,10 +1,10 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "com.stephennimmo.demo";
+option java_package = "com.stephennimmo.demo.hello";
 option java_outer_classname = "HelloRequestReplyProto";
 
-package hello;
+package com.stephennimmo.demo.hello;
 
 message HelloRequest {
     string name = 1;
