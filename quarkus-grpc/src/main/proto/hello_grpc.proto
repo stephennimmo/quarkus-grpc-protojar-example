@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.stephennimmo.demo";
+option java_outer_classname = "HelloGrpcProto";
+
+package hello;
+
+import "hello.proto";
+
+service HelloGrpc {
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
